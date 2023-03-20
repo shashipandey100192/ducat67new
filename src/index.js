@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Abc from './components/Home';
 import { About } from './components/Home';
+import Mynav from './components/Mynav';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Mynav/>
     <Abc/>
     <About />
   </React.StrictMode>
